@@ -71,7 +71,10 @@ function evaluateExpression(expression) {
     const token = tokens[i].trim();
 
     if (token in operators) {
-      while (operatorsStack.length > 0 && precedence[operatorsStack[operatorsStack.length - 1]] >= precedence[token]) {
+      while (
+        operatorsStack.length > 0 &&
+        precedence[operatorsStack[operatorsStack.length - 1]] >= precedence[token]
+      ) {
         const operator = operatorsStack.pop();
         const b = values.pop();
         const a = values.pop();
