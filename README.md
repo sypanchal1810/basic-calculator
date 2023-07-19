@@ -1,8 +1,6 @@
 # Basic Calculator
 
-##### The Simple Basic Calculator project is deployed and live now: [Click Here!](https://simple-basic-calculator.onrender.com) 😍🥳🎉
-
-###### \*\* If above link not works then [Click Here!](https://simple-basic-calculator-project.netlify.app/)
+##### The Simple Basic Calculator project is deployed and live now: [Click Here!](https://simple-basic-calculator-project.netlify.app/) 😍🥳🎉
 
 ## Table of Contents
 
