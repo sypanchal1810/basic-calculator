@@ -1,5 +1,5 @@
 {
-  "name": "Simple Calculator",
+  "name": "Basic-Calculator",
   "version": "1.0.0",
   "scripts": {
     "start": "snowpack dev",
