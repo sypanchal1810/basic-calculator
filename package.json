@@ -1,0 +1,13 @@
+{
+  "name": "Simple Calculator",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build "
+  },
+  "author": "sypanchal1810",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
