@@ -53,6 +53,7 @@ body {
 .calculator {
   position: relative;
   width: 40rem;
+  height: 50rem;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -60,6 +61,13 @@ body {
   padding: 5.5rem 3rem 4rem;
   font-family: inherit;
   border-radius: 3rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .calculator {
+    height: 55rem;
+    padding: 8rem 3rem 5rem;
+  }
 }
 
 .buttons {
@@ -73,7 +81,7 @@ body {
 
 .display {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   height: 7.5rem;
   font-family: inherit;
   font-size: 2rem;
@@ -89,7 +97,8 @@ body {
 }
 
 button {
-  width: 80%;
+  width: 6rem;
+  height: 5rem;
   padding: 1rem;
   font-size: 1.5rem;
   font-family: inherit;
